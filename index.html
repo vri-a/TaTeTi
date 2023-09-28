@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaTeTi</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="homeSec" id="homeSec">
+            <div class="title">
+                <p>T<span>A</span></p>
+                <p><span>T</span>E</p>
+                <p>T<span>I</span></p>
+            </div>
+            <div class="gameOptions">
+                <p>Elegí cómo querés jugar</p>
+                <a>Con la computadora</a>
+                <a>Con un amigo</a>
+            </div>
+        </section>
+        <section class="boardSec" id="boardSec">
+            <div class="players">
+                <p id="player1"></p>
+                <p id="points">0-0</p>
+                <p id="player2"></p>
+            </div>
+            <div class="board" id="board">
+                <button onclick="addContent(0)"></button><button onclick="addContent(1)"></button><button
+                    onclick="addContent(2)"></button>
+                <button onclick="addContent(3)"></button><button onclick="addContent(4)"></button><button
+                    onclick="addContent(5)"></button>
+                <button onclick="addContent(6)"></button><button onclick="addContent(7)"></button><button
+                    onclick="addContent(8)"></button>
+            </div>
+            <p id="messageGame">Choose an option</p>
+            <div class="boardSect__menu">
+                <button id="x">X
+                    <!-- <img src="https://cdn-icons-png.flaticon.com/128/87/87251.png" alt=""> -->
+                </button>
+                <button id="o">O
+                    <!-- <img src="https://cdn-icons-png.flaticon.com/128/3524/3524377.png" alt=""> -->
+                </button>
+                <button id="restart" class="restart" disabled>
+                    <img src="https://cdn-icons-png.flaticon.com/128/3106/3106716.png" alt="">
+                </button>
+                <a class="homeBtn" id="homeBtn" href="#secHome">
+                    <img src="https://cdn-icons-png.flaticon.com/128/25/25694.png" alt="">
+                </a>
+            </div>
+        </section>
+    </div>
+    <script src="./assets/css/js/main.js"></script>
+</body>
+
+</html>
